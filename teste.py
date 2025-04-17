@@ -2,7 +2,9 @@ import streamlit as st
 import random
 
 def mensagem(nivel):
-    if nivel < 20:
+    if nivel == 0:
+        return "### Chad Detectado 🗿🗿🗿 "
+    elif nivel < 20:
         return "Quase hétero... quase!"
     elif nivel < 50:
         return "Um pé no arco-íris 🦶🌈"
@@ -17,6 +19,8 @@ def medir_nivel_gay(nome):
     if nome == "baiano":
         return 100
     elif nome == "aurelio":
+        return 0
+    elif nome == "tavas":
         return 0
     elif nome == "theyllor":
         return 1000000000
