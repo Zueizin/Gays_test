@@ -1,0 +1,2 @@
+"""Em um banco, os clientes chegam para realizar operações como saques, depósitos, pagamentos, entre outros.
+Para garantir que todos sejam atendidos de forma justa e organizada, é utilizado um sistema de filas."""
